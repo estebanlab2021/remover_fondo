@@ -5,9 +5,9 @@ from rembg import remove
 
 app = Flask(__name__)
 
-CORS(app)  # Habilita CORS en toda la aplicación
+CORS(app, origins="https://estebanlab2021.github.io")  # Habilita CORS en toda la aplicación
 
-@app.route('/remover-fondo', methods=['POST', 'OPTIONS'])
+@app.route('/remover-fondo', methods=['POST'])
 def remover_fondo():
     if 'image' not in request.files:
         return "No se ha subido una imagen", 400
@@ -26,5 +26,3 @@ def remover_fondo():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-# python app.py
