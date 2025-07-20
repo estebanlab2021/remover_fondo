@@ -64,7 +64,7 @@ Abre tu archivo `remover_fondo.html` en un navegador web. Puedes usar una extens
 ## 🌐 Versión en línea
 
 El proyecto lo puedes visualizar en el siguiente link:
-👉 [Enlace a la demo](https://tu-github-pages-link)
+👉 [Enlace a la demo](https://estebanlab2021.github.io/remover_fondo/)
 
 ## 📄 Licencia
 
